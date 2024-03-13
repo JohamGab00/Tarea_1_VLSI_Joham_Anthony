@@ -38,16 +38,35 @@
 
 ### Parte 2.A Características en DC del inversor CMOS estático. 
 
-#### Regiones de operación del inversor mínimo. 
+ - #### Regiones de operación del inversor mínimo. 
 
-#### Curva característica del inversor  mínimo. 
+ - #### Curva característica del inversor  mínimo. 
 
-#### Corriente de cortocircuito del inversor mínimo. 
+- #### Corriente de cortocircuito del inversor mínimo. 
 
-#### Efecto del ratio Beta del inversor mínimo. 
+- #### Efecto del ratio Beta del inversor mínimo. 
 
-#### Solución empírica de la relación PMOS/NMOS.
+- #### Solución empírica de la relación PMOS/NMOS.
 
-#### Simulaciones sobre las esquinas de variabilidad del proceso.  
+- #### Simulaciones sobre las esquinas de variabilidad del proceso.  
 
 
+
+### Parte 2.B
+
+- #### Deck de SPICE equivalente  de las figuras 8.9-8.10 de [1] sus tiempos de retardo tpdf y tpdr.
+
+- #### Variaciones del  tamaño  del  transistor  PMOS, alrededor  de  la  relación  2/1 y sus  gráficas  tpdf,  tpdr  vs.  la  relación PMOS/NMOS
+
+- #### SPICE deck de la figura 8.11 y  las soluciones de las razones  PMOS/NMOS  para  los  distintos  objetivos  indicados  al  optimizador  (diff=0,  tpd (tpfr+tpdf)/2)=0).
+
+- #### Solución seleccionada (cálculos manuales vs la del  optimizador),  según  criterios de rendimiento, potencia y área. 
+
+- #### ¿Conviene  ampliar  el  rango  de  búsqueda  del  algoritmo  o  situarse  cerca  del punto ya averiguado manualmente en el punto anterior?
+
+### Parte 3.C
+
+- #### Con la razón de tamaños provista del punto b (relación  2/1) se muestran las pruebas implementadas  por  la  ecuación  (8.7)  y  la  figura  8.26  de  la  sección  8.4.5  de  [1].  
+
+
+- ####  Suponiendo primero  la  capacitancia calculada en 1.b se comparan los valores de Rp y Rn hallados contra lo que  obtuvo en 1.a. ¿Cuál resultado se prefiere?.
