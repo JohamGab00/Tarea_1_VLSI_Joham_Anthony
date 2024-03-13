@@ -73,9 +73,7 @@ Finalmente se multiplican los resultados de la capacitancia equivalente por la r
 
 
 ### Parte 2.A Características en DC del inversor CMOS estático. 
-Se utilizó el siguiente código de hspice para obtener la curva característica de un transistor NMOS de:
-
-El resultado de la curva característica del NMOS fué el siguiente:
+Se utilizó el siguiente código de hspice para obtener la curva característica de un transistor NMOS mínimo:
 
 ![WhatsApp Image 2024-03-13 at 1 49 26 AM](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110150220/a21fa454-7591-46d6-a52f-0dad0c673462)
 
