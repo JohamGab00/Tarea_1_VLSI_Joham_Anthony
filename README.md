@@ -31,12 +31,23 @@
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/16885c82-3e9d-46c3-a85d-a5e274a635dc)
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/5bc9d310-8657-4d3f-8923-983c19a391d4)
+
+
 ## Parte 2. Diseño de un inversor mínimo de tamaño óptimo
 
 
-### Parte 2.A
+### Parte 2.A Características en DC del inversor CMOS estático. 
 
-### Parte 2.B
+#### Regiones de operación del inversor mínimo. 
 
-### Parte 3.C
+#### Curva característica del inversor  mínimo. 
+
+#### Corriente de cortocircuito del inversor mínimo. 
+
+#### Efecto del ratio Beta del inversor mínimo. 
+
+#### Solución empírica de la relación PMOS/NMOS.
+
+#### Simulaciones sobre las esquinas de variabilidad del proceso.  
+
 
