@@ -3,17 +3,17 @@
 
 ### Parte 1.A Cáculos para la resistencia efectiva. 
 
-#### Ecuación 4.16
+- #### Ecuación 4.16
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/9a7f023c-7579-4c5d-b403-5b124517a00d)
 
-#### Ecuación 1
+- #### Ecuación 1
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/6c57f06a-29bc-4aab-9ae3-d6ad22dd8890)
 
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/4c138bbb-b5a9-49fd-b1d4-98b50173bfac)
 
-#### Ecuaciónes para la simulación
+- #### Ecuaciónes para la simulación
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/d002c78e-d581-4fa0-a147-b9b51f11fab6)
 
