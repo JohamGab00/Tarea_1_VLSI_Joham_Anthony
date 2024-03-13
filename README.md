@@ -76,6 +76,10 @@ Finalmente se multiplican los resultados de la capacitancia equivalente por la r
 Se utilizó el siguiente código de hspice para obtener la curva característica de un transistor NMOS de:
 
 El resultado de la curva característica del NMOS fué el siguiente:
+
+![WhatsApp Image 2024-03-13 at 1 49 26 AM](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110150220/a21fa454-7591-46d6-a52f-0dad0c673462)
+
+
  - #### Regiones de operación del inversor mínimo. 
 
  - #### Curva característica del inversor  mínimo. 
@@ -84,6 +88,7 @@ El resultado de la curva característica del NMOS fué el siguiente:
 
 - #### Efecto del ratio Beta del inversor mínimo. 
 Se diseñó un inversor con medidas mínimas para obtener la corriente de cortocircuito y su curva de salida, con el fin de determinar la mejor relación PMOS/NMOS para diseñar el inversor, las relaciones de \Beta_p/\Beta_n se muestran en la siguiente figura:
+
 
 - #### Solución empírica de la relación PMOS/NMOS.
 
