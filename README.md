@@ -82,10 +82,18 @@ Se simula el comportamiento en hspice para obtener la curva característica de u
 
  - #### Regiones de operación del inversor mínimo. 
 Como se observa en la siguiente figura tomada de [1], representa la curva característica del inversor y sus regiones de operación.
+
+
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/228030f0-0fb7-4c8f-95c6-be6bc4a4f42a)
+
+
 Vemos que en la tabla 2.3 tomada de [1] se caracterizan cada una de las regiones correspondientes. 
+
+
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/799cf881-674a-4b7e-bdc9-df0072585d0c)
+
 Basado en lo anterior, se calcula una tabla con los valores de las regiones de operación teóricos para nuestro inversor y posteriormete con la simulación obtenemos los valores experimentales, de esta manera, para el inversor mínimo se sabe en qué regiones está operando. 
+
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/4f09d39f-748c-44f4-ad5e-2f25ca99984d)
 En la siguiente imagen se evidencia dicha simulación y sus regiones de operación, (la simulación de este punto se obtiene del script de SPICE llamado [Inversor_Curva_Caracteristica] en la carpeta de scripts de este repositorio). 
 
