@@ -115,17 +115,22 @@ En la siguiente imagen se evidencia dicha simulación y sus regiones de operaci�
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/2fea04d3-149e-4d3f-8423-44cab8da2c87)
 - #### Efecto del ratio Beta del inversor mínimo. 
 
- En la siguiente imagen tomada de [1], se observa la gráfica teórica del ratio beta para diferentes relaciones de beta de un inversor MOS de tamaño mínimo, esta se puede comparar con la gráfica obtenida en las simulaciones, (la simulación de este punto se obtiene del script de Python llamado XXXX en la carpeta de scripts de este repositorio). 
+ En la siguiente imagen tomada de [1], se observa la gráfica teórica del ratio beta para diferentes relaciones de beta de un inversor MOS de tamaño mínimo, esta se puede comparar con la gráfica obtenida en las simulaciones, dichos valores se graficaron en Excel para analizar los valores obtenidos, (la simulación de este punto se obtiene del script de SPICE llamado [Inversor] en la carpeta de scripts de este repositorio). 
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/b53d6685-36a5-40a1-8087-58f6d5c24284)
 
 Se diseñó un inversor con medidas mínimas para obtener la corriente de cortocircuito y su curva de salida, con el fin de determinar la mejor relación PMOS/NMOS para diseñar el inversor, las relaciones de \Beta_p/\Beta_n se muestran en la siguiente figura:
 
+![WhatsApp Image 2024-03-17 at 4 04 19 PM](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/229d361e-6fc3-42f6-a20e-d59082097e24)
 
-
-De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es la de 4/1, esto debido a que el punto de inflexión de la curva se acerca más a VDD/2 = 0.9V que las otras relaciones, valores más grandes se alejan de este valor, y valores más pequeños también se alejan, (la simulación de este punto se obtiene del script de SPICE llamado XXXX en la carpeta de scripts de este repositorio). 
+De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es la de 4/1, esto debido a que el punto de inflexión de la curva se acerca más a VDD/2 = 0.9V que las otras relaciones, valores más grandes se alejan de este valor, y valores más pequeños también se alejan.
 
 - #### Simulaciones sobre las esquinas de variabilidad del proceso.  
+
+ Para el transistor NMOS se usó W=220nm y para PMOS W=880nm, ambos con L=180nm, es sobre estos valores que corremos la variabilidad del proceso. 
+
+
+
 
 
 ### Parte 2.B
