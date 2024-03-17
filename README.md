@@ -1,4 +1,5 @@
 
+
 # Tarea_1_VLSI_Joham_Anthony
 ## Parte 1. Determinación de las resistencias de canal de transistores mínimos NMOS y PMOS para el proceso XH018. Módulo LPMOS: ne, pe (1,8V).
 
@@ -86,21 +87,24 @@ Vemos que en la tabla 2.3 tomada de [1] se caracterizan cada una de las regiones
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/799cf881-674a-4b7e-bdc9-df0072585d0c)
 Basado en lo anterior, se calcula una tabla con los valores de las regiones de operación teóricos para nuestro inversor y posteriormete con la simulación obtenemos los valores experimentales, de esta manera, para el inversor mínimo se sabe en qué regiones está operando. 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/4f09d39f-748c-44f4-ad5e-2f25ca99984d)
-En la siguiente imagen se evidencia dicha simulación y sus regiones de operación, (la simulación de este punto se obtiene del script de SPICE llamado XXXX en la carpeta de scripts de este repositorio). 
+En la siguiente imagen se evidencia dicha simulación y sus regiones de operación, (la simulación de este punto se obtiene del script de SPICE llamado [Inversor_Curva_Caracteristica] en la carpeta de scripts de este repositorio). 
+
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/99d7054b-4bc4-4b54-a372-2e63c7320c6d)
 
  - #### Curva característica del inversor  mínimo. 
- En la siguiente imagen tomada de [1], se observa la curva característica teórica del inversor MOS de tamaño mínimo, esta se puede comparar con la curva obtenida en las simulaciones, (la simulación de este punto se obtiene del script de SPICE llamado XXXX en la carpeta de scripts de este repositorio). 
+ En la siguiente imagen tomada de [1], se observa la curva característica teórica del inversor MOS de tamaño mínimo, esta se puede comparar con la curva obtenida en las simulaciones, (la simulación de este punto se obtiene del script de SPICE llamado [Inversor_Curva_Caracteristica] en la carpeta de scripts de este repositorio). 
  
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/9d505872-1958-48f5-88c5-5e3726aa005b)
 
+![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/86b51053-8683-4ab7-aaa0-cea2fb0494d6)
 
 - #### Corriente de cortocircuito del inversor mínimo. 
 
- En la siguiente imagen tomada de [1], se observa la gráfica teórica de la corriente de cortocircuito del inversor MOS de tamaño mínimo, esta se puede comparar con la gráfica obtenida en las simulaciones, (la simulación de este punto se obtiene del script de SPICE llamado XXXX en la carpeta de scripts de este repositorio). 
+ En la siguiente imagen tomada de [1], se observa la gráfica teórica de la corriente de cortocircuito del inversor MOS de tamaño mínimo, esta se puede comparar con la gráfica obtenida en las simulaciones, (la simulación de este punto se obtiene del script de SPICE llamado [Modelo_Inversor_Corriente_Corto] en la carpeta de scripts de este repositorio). 
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/75f330c6-aeb7-4753-a8d8-6d9dd293e87e)
 
+![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/2fea04d3-149e-4d3f-8423-44cab8da2c87)
 - #### Efecto del ratio Beta del inversor mínimo. 
 
  En la siguiente imagen tomada de [1], se observa la gráfica teórica del ratio beta para diferentes relaciones de beta de un inversor MOS de tamaño mínimo, esta se puede comparar con la gráfica obtenida en las simulaciones, (la simulación de este punto se obtiene del script de Python llamado XXXX en la carpeta de scripts de este repositorio). 
@@ -114,7 +118,6 @@ Se diseñó un inversor con medidas mínimas para obtener la corriente de cortoc
 De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es la de 4/1, esto debido a que el punto de inflexión de la curva se acerca más a VDD/2 = 0.9V que las otras relaciones, valores más grandes se alejan de este valor, y valores más pequeños también se alejan, (la simulación de este punto se obtiene del script de SPICE llamado XXXX en la carpeta de scripts de este repositorio). 
 
 - #### Simulaciones sobre las esquinas de variabilidad del proceso.  
-
 
 
 ### Parte 2.B
@@ -135,10 +138,3 @@ De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es
 
 
 - ####  Suponiendo primero  la  capacitancia calculada en 1.b se comparan los valores de Rp y Rn hallados contra lo que  obtuvo en 1.a. ¿Cuál resultado se prefiere?.
-
-
-## Bibliografía
-
-1. N. Weste and D. Harris, *CMOS VLSI Design: A Circuits and Systems Perspective*, 4th edition. Boston: Addison-Wesley, 2010.
-2. Process and Device Specification XH018 - 0.18 μm Modular Mixed Signal HV CMOS, PDS-018-13. Release 7.0.1. XFAB Semiconductor Foundries, Nov. 2017.
-3. J. Rabaey, A. Chandrakasan y B. Nikolic, *Digital Integrated Circuits: A Design Perspective*.
