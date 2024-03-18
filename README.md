@@ -127,7 +127,7 @@ De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es
 
 - #### Simulaciones sobre las esquinas de variabilidad del proceso.  
 
- Para el transistor NMOS se usó W=220nm y para PMOS W=880nm, ambos con L=180nm, es sobre estos valores que corremos la variabilidad del proceso. 
+ Usando una relación 2/1 como nos indica la tarea,  Para el transistor NMOS se usó W=220nm y para PMOS W=440nm, ambos con L=180nm, es sobre estos valores que corremos la variabilidad del proceso. 
 
 
 
@@ -135,11 +135,12 @@ De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es
 
 ### Parte 2.B
 
-- #### Deck de SPICE equivalente  de las figuras 8.9-8.10 de [1] sus tiempos de retardo tpdf y tpdr.
+- #### Deck de SPICE equivalente  de las figuras 8.9-8.10 de [1] sus tiempos de retardo tpdf y tpdr además de sus variaciones del  tamaño  del  transistor  PMOS, alrededor  de  la  relación  2/1 y sus  gráficas  tpdf,  tpdr  vs.  la  relación PMOS/NMOS, tomando como referencia las definiciones de la siguiente imagen: 
 
-- #### Variaciones del  tamaño  del  transistor  PMOS, alrededor  de  la  relación  2/1 y sus  gráficas  tpdf,  tpdr  vs.  la  relación PMOS/NMOS
+![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/536e7e8c-9a96-40c5-9216-44ce9e1116b8)
 
-- #### SPICE deck de la figura 8.11 y  las soluciones de las razones  PMOS/NMOS  para  los  distintos  objetivos  indicados  al  optimizador  (diff=0,  tpd (tpfr+tpdf)/2)=0).
+En el script llamado [inversor_3] se establecio el parametro A, el cual multiplica el ancho del transistor PMOS para asi variar la relacion PMOS/NMOS, se miden los retardos tpdr, tpdf y tpd, se muestran los siguientes resultados:
+
 
 - #### Solución seleccionada (cálculos manuales vs la del  optimizador),  según  criterios de rendimiento, potencia y área. 
 
