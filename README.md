@@ -173,6 +173,16 @@ En resumen, la elección entre las soluciones dependerá de las prioridades del 
 ### Parte 3.C
 
 - #### Con la razón de tamaños provista del punto b (relación  2/1) se muestran las pruebas implementadas  por  la  ecuación  (8.7)  y  la  figura  8.26  de  la  sección  8.4.5  de  [1].  
+| Variable | Valor |
+|---|---|
+| t_pdf H=4 | 7.58E-11 s|
+| t_pdr H=4 | 1.17E-10 s|
+| t_pdf H=3 | 6.25E-11 s|
+| t_pdr H=3 | 9.73E-11 s|
+| ∆t_pdr    | 1.96E-11 s|
+| ∆t_pdf    | 1.32E-11 s|
+| RP        | 38983.21 Ω|
+| RN        | 9880.13 Ω|
 
 
 - ####  Suponiendo primero  la  capacitancia calculada en 1.b se comparan los valores de Rp y Rn hallados contra lo que  obtuvo en 1.a. ¿Cuál resultado se prefiere?.
