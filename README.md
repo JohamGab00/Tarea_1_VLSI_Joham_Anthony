@@ -127,7 +127,12 @@ De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es
 
 - #### Simulaciones sobre las esquinas de variabilidad del proceso.  
 
- Usando una relación 2/1 como nos indica la tarea,  Para el transistor NMOS se usó W=220nm y para PMOS W=440nm, ambos con L=180nm, es sobre estos valores que corremos la variabilidad del proceso. 
+ Usando una relación 2/1 como nos indica,  Para el transistor NMOS se usó W=220nm y para PMOS W=440nm, ambos con L=180nm, es sobre estos valores que corremos la variabilidad del proceso, donde en las siguientes imágenes vemos una tabla con los valores de pontencia, tpdr, tpdf y temperatura constante obtenidos y una gráfica que los representa. 
+ 
+![465682a8-08b9-4b7c-a228-ae9b022abb4f](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/10e26ede-8da8-4528-9cb8-7fa65633f7ab)
+
+
+![WhatsApp Image 2024-03-17 at 7 08 46 PM](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/897c594d-0863-4455-b0b9-6c653be6c363)
 
 
 
@@ -139,12 +144,14 @@ De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/536e7e8c-9a96-40c5-9216-44ce9e1116b8)
 
-En el script llamado [inversor_3] se establecio el parametro A, el cual multiplica el ancho del transistor PMOS para asi variar la relacion PMOS/NMOS, se miden los retardos tpdr, tpdf y tpd, se muestran los siguientes resultados:
+En el script llamado [inversor_3] se establecio el parametro A, el cual multiplica el ancho del transistor PMOS para asi variar la relacion PMOS/NMOS, se miden los retardos tpdr, tpdf y tpd, se muestran los siguientes resultados en pico segundos:
+
+![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/63c18cfb-2f23-4c98-a491-824078d5672a)
 
 
-- #### Solución seleccionada (cálculos manuales vs la del  optimizador),  según  criterios de rendimiento, potencia y área. 
+![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/9de1eaf7-7955-4d4e-8521-d3f55532f8a2)
 
-- #### ¿Conviene  ampliar  el  rango  de  búsqueda  del  algoritmo  o  situarse  cerca  del punto ya averiguado manualmente en el punto anterior?
+De lo anterior se observa que la relacion con el menor tiempo de retardo y menor diferencia de tpdf y tpdr se logra cuando la relacion PMOS/NMOS es de 2.5/1.
 
 ### Parte 3.C
 
