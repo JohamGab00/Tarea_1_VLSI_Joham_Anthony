@@ -1,0 +1,50 @@
+*  Generated for: PrimeSim
+*  Design library name: Tarea01
+*  Design cell name: Inversor
+*  Design view name: schematic
+
+
+
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X = 1
+.option S_ELEM_CACHE_DIR = "/home/Leiva_Valverde_I_2024_vlsi/.synopsys_custom/sparam_dir"
+.option PVA_OUTPUT_DIR = "/home/Leiva_Valverde_I_2024_vlsi/.synopsys_custom/pva_dir"
+
+.option WDF=1
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Leiva_Valverde_I_2024_vlsi/Tarea01/Hspice/lp5mos/xt018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Leiva_Valverde_I_2024_vlsi/Tarea01/Hspice/lp5mos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Leiva_Valverde_I_2024_vlsi/Tarea01/Hspice/lp5mos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Mon Mar 11 15:29:31 2024
+
+.global gnd!
+********************************************************************************
+* Library          : Tarea01
+* Cell             : Inversor
+* View             : schematic
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xm1 out in gnd! gnd! ne w=220n l=180n as=1.056e-13 ad=1.056e-13 ps=1.4e-06 pd=1.4e-06
++ nrs=1.22727 nrd=1.22727 m='1*1' par1='1*1' xf_subext=0
+v8 vdd gnd! dc=1.8
+xm12 out in vdd vdd pe w=880n l=180n as=1.056e-11 ad=1.056e-11 ps=4.496e-05 pd=4.496e-05
++ nrs=0.0122727 nrd=0.0122727 m='1*1' par1='1*1' xf_subext=0
+v13 in gnd! dc=0 pulse ( 0 1.8 '2ns' '42ns' )
+
+
+
+.option opfile=1 split_dp=1
+.option probe=1
+
+
+
+.tran 10p 42n start=0
+.probe tran v(*) level=1
+.probe tran v(out) v(in)
+.probe tran i(*)
+.end
+
+
