@@ -127,7 +127,7 @@ De acuerdo con lo observado en la figura anterior la mejor relacion PMOS/NMOS es
 
 - #### Simulaciones sobre las esquinas de variabilidad del proceso.  
 
- Usando una relación 2/1 como nos indica,  Para el transistor NMOS se usó W=220nm y para PMOS W=440nm, ambos con L=180nm, es sobre estos valores que corremos la variabilidad del proceso, donde en las siguientes imágenes vemos una tabla con los valores de pontencia, tpdr, tpdf y temperatura constante obtenidos y una gráfica que los representa. 
+ Usando una relación 2/1 como nos indica,  Para el transistor NMOS se usó W=220nm y para PMOS W=440nm, ambos con L=180nm, es sobre estos valores que corremos la variabilidad del proceso, donde en las siguientes imágenes vemos una tabla con los valores de pontencia, tpdr, tpdf y temperatura constante obtenidos y una gráfica que los representa. (la simulación de este punto se obtiene del script de SPICE llamado [Inversor_Esquinas] en la carpeta de scripts de este repositorio). 
  
 ![465682a8-08b9-4b7c-a228-ae9b022abb4f](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/10e26ede-8da8-4528-9cb8-7fa65633f7ab)
 
@@ -152,6 +152,23 @@ En el script llamado [inversor_3] se establecio el parametro A, el cual multipli
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/9de1eaf7-7955-4d4e-8521-d3f55532f8a2)
 
 De lo anterior se observa que la relación con el menor tiempo de retardo y menor diferencia de tpdf y tpdr se logra cuando la relación PMOS/NMOS es de 2.5/1.
+
+- #### Cálculo de la optimización automatizada
+
+Para dicho cálculo se realiza una optimizacion automatizada utilizando Hspice, dicho script utilizado es el que se llama [Inversor_4] y tomando los resultados obtenidos y comparando con los resultados obtenidos manualmete se tiene: 
+
+![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/45c07974-959b-45ff-b59d-aacca147cb59)
+
+
+  
+Para determinar cuál de las dos alternativas es más favorable, es esencial considerar exhaustivamente los requisitos de diseño. La optimización manual exhibe un área reducida en comparación con la optimización automática, lo cual se atribuye al hecho de que el ancho del transistor PMOS es 2.5 veces mayor que el del transistor NMOS, en contraste con la relación de 4 veces en el otro escenario. Esta optimización también presenta un menor tiempo de propagación de la señal (tpd), lo que implica que, en promedio, el retardo de propagación es menor para esta configuración. Por último, la relación 2.5/1 también conlleva un consumo de potencia promedio inferior en comparación con la relación obtenida mediante Hspice.
+
+La relación derivada automáticamente presenta una diferencia menor entre los tiempos de propagación de subida (tpdr) y de bajada (tpdf), lo que se traduce en una simetría casi igualitaria en el retardo cuando la compuerta cambia de 0 a 1 o de 1 a 0. Desafortunadamente, la relación 4/1 conlleva un mayor consumo de potencia, una mayor área y un ligero aumento en el retardo de propagación promedio.
+
+En resumen, la elección entre las soluciones dependerá de las prioridades del diseño. Si se busca una compuerta con la menor área, el menor retardo de propagación y el menor consumo de potencia, la relación 2.5/1 obtenida manualmente es la mejor opción. Por otro lado, si se prioriza la igualdad entre los tiempos de propagación de subida y bajada, la relación 4/1 obtenida automáticamente con Hspice es más adecuada.
+
+
+
 
 ### Parte 3.C
 
