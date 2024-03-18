@@ -151,7 +151,7 @@ En el script llamado [inversor_3] se establecio el parametro A, el cual multipli
 
 ![image](https://github.com/JohamGab00/Tarea_1_VLSI_Joham_Anthony/assets/110200214/9de1eaf7-7955-4d4e-8521-d3f55532f8a2)
 
-De lo anterior se observa que la relacion con el menor tiempo de retardo y menor diferencia de tpdf y tpdr se logra cuando la relacion PMOS/NMOS es de 2.5/1.
+De lo anterior se observa que la relación con el menor tiempo de retardo y menor diferencia de tpdf y tpdr se logra cuando la relación PMOS/NMOS es de 2.5/1.
 
 ### Parte 3.C
 
