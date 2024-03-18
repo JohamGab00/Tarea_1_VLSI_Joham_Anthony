@@ -172,17 +172,35 @@ En resumen, la elección entre las soluciones dependerá de las prioridades del 
 
 ### Parte 3.C
 
-- #### Con la razón de tamaños provista del punto b (relación  2/1) se muestran las pruebas implementadas  por  la  ecuación  (8.7)  y  la  figura  8.26  de  la  sección  8.4.5  de  [1].  
+- #### Con la razón de tamaños provista del punto b (relación  2/1) se muestran las pruebas implementadas  por  la  ecuación  (8.7)  y  la  figura  8.26  de  la  sección  8.4.5  de  [1].
+
+Se utiliza el mismo tamaño de transistores que en las secciones anteriores: W=220nm para NMOS y W=440nm para PMOS, con un L=180nm para ambos casos.
+Se calculan los tiempos de subida y bajada usando las ecuaciones:
+
+$Δt_{pdr} = (3/2)R_pC$
+
+$Δt_{pdf} = 3R_nC$
+
+Se necesita el valor de $Δt_{pdr}$ y $Δt_{pdf}$ para calcular la resistencia efectiva de PMOS y NMOS.
+Se obtienen los valores de $Δt_{pdr}$ y $Δt_{pdf}$ mediante simulación en Hspice para h=3 y h=4, el archivo utilizado para simulación es el FO4.
+Se calculan los deltas ($Δt_{pdr}$ y $Δt_{pdf}$) usando los valores de h y la capacitancia obtenida en la parte 1.
+Se calcula la resistencia efectiva tanto para NMOS como para PMOS y se obtienen los resultados de la siguiente Tabla.
+
+
+
+
 | Variable | Valor |
 |---|---|
-| t_pdf H=4 | 7.58E-11 s|
-| t_pdr H=4 | 1.17E-10 s|
-| t_pdf H=3 | 6.25E-11 s|
-| t_pdr H=3 | 9.73E-11 s|
-| ∆t_pdr    | 1.96E-11 s|
-| ∆t_pdf    | 1.32E-11 s|
-| RP        | 38983.21 Ω|
-| RN        | 9880.13 Ω|
+| $t_{pdf}$ H=4 | 7.58E-11 s|
+| $t_{pdr}$ H=4 | 1.17E-10 s|
+| $t_{pdf}$ H=3 | 6.25E-11 s|
+| $t_{pdr}$ H=3 | 9.73E-11 s|
+| $Δt_{pdr}$    | 1.96E-11 s|
+| $Δt_{pdf}$    | 1.32E-11 s|
+| $R_P$        | 38983.21 Ω|
+| $R_N$        | 9880.13 Ω|
 
 
 - ####  Suponiendo primero  la  capacitancia calculada en 1.b se comparan los valores de Rp y Rn hallados contra lo que  obtuvo en 1.a. ¿Cuál resultado se prefiere?.
+Se obtienen los valores: $R_{NMOS} ≈ 11.5 kΩ$ y $R_{PMOS} ≈ 34 kΩ$.
+Se concluye que los datos de esta sección son más precisos que los de la parte 1 debido a la mayor información disponible sobre los tiempos de subida y bajada gracias a los modelos SPICE.
